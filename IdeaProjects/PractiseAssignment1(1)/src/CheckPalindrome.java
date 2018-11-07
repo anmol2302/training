@@ -23,6 +23,7 @@ public class CheckPalindrome {
         BigInteger divideValue = new BigInteger("10");
         BigInteger revNumber = new BigInteger("0");
         BigInteger compareValue = new BigInteger("0");
+String hello="";
         while (origNumber.compareTo(compareValue) != 0) {
             remainder = origNumber.remainder(divideValue);
             revNumber = revNumber.multiply(divideValue).add(remainder);
